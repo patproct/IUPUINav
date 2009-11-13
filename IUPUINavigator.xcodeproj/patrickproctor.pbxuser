@@ -20,98 +20,7 @@
 			26E20C31108FC9BB003CB0F4 /* IUPUINavigator */,
 		);
 	};
-	26E20C31108FC9BB003CB0F4 /* IUPUINavigator */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = IUPUINavigator;
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
-	};
-	26E20C45108FC9C0003CB0F4 /* Source Control */ = {
-		isa = PBXSourceControlManager;
-		fallbackIsa = XCSourceControlManager;
-		isSCMEnabled = 0;
-		scmConfiguration = {
-			repositoryNamesForRoots = {
-				"" = "";
-			};
-		};
-	};
-	26E20C46108FC9C0003CB0F4 /* Code sense */ = {
-		isa = PBXCodeSenseManager;
-		indexTemplatePath = "";
-	};
-	26E20C77108FDE37003CB0F4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
-		name = "RootViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 522;
-		vrLoc = 0;
-	};
-	26E20C78108FDE37003CB0F4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* IUPUINavigatorAppDelegate.m */;
-		name = "IUPUINavigatorAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 750;
-		vrLoc = 4117;
-	};
-	26E20C79108FDE37003CB0F4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* IUPUINavigatorAppDelegate.h */;
-		name = "IUPUINavigatorAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 945;
-		vrLoc = 0;
-	};
-	26E20C7A108FDE37003CB0F4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 90";
-		rLen = 0;
-		rLoc = 2689;
-		rType = 0;
-		vrLen = 1251;
-		vrLoc = 5536;
-	};
-	26E20C7B108FDE37003CB0F4 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Building.address -- relationship does not have an inverse ";
-		fRef = 28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 0;
-		rLoc = 0;
-		rType = 1;
-	};
-	26E20C7F108FE74E003CB0F4 /* XDModelBookmark */ = {
+	262EA2D710ACE17100A39C9E /* XDModelBookmark */ = {
 		isa = XDModelBookmark;
 		fRef = 28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */;
 		fallbackIsa = PBXBookmark;
@@ -160,7 +69,7 @@
 					isCollapsed = yes;
 					sizes = (
 						"{{0, 0}, {1070, 220}}",
-						"{{0, 225}, {1070, 274}}",
+						"{{0, 225}, {1070, 246}}",
 					);
 				};
 				tableSplitGeometry = {
@@ -267,14 +176,107 @@
 				);
 			};
 			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-168, 0}, {1055, 259}}";
+			"xdesign model diagram view visible rect key" = "{{-168, 0}, {1055, 231}}";
 			"xdesign model selected entities key" = (
-				"<XDPMEntity: 0x4f88a60>{name=Building, package=}",
 			);
 			"xdesign model selected properties key" = (
-				"<XDPMRelationship: 0x6798450>{name=address, type=(null)}",
 			);
 		};
+	};
+	26E20C31108FC9BB003CB0F4 /* IUPUINavigator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IUPUINavigator;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	26E20C45108FC9C0003CB0F4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	26E20C46108FC9C0003CB0F4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	26E20C77108FDE37003CB0F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 0;
+	};
+	26E20C78108FDE37003CB0F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* IUPUINavigatorAppDelegate.m */;
+		name = "IUPUINavigatorAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 4117;
+	};
+	26E20C79108FDE37003CB0F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* IUPUINavigatorAppDelegate.h */;
+		name = "IUPUINavigatorAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 0;
+	};
+	26E20C7A108FDE37003CB0F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 90";
+		rLen = 0;
+		rLoc = 2689;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 5536;
+	};
+	26E20C7B108FDE37003CB0F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Building.address -- relationship does not have an inverse ";
+		fRef = 28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */;
+		rLen = 0;
+		rLoc = 0;
+		rType = 1;
+	};
+	26E20C7F108FE74E003CB0F4 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
 	};
 	28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */ = {
 		uiCtxt = {
@@ -323,7 +325,7 @@
 						isCollapsed = yes;
 						sizes = (
 							"{{0, 0}, {1070, 220}}",
-							"{{0, 225}, {1070, 274}}",
+							"{{0, 225}, {1070, 246}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -430,7 +432,7 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-168, 0}, {1055, 259}}";
+				"xdesign model diagram view visible rect key" = "{{-168, 0}, {1055, 231}}";
 			};
 		};
 	};
@@ -465,7 +467,7 @@
 					20,
 					833,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -480,16 +482,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 277858747;
-			PBXWorkspaceStateSaveDate = 277858747;
+			PBXPerProjectTemplateStateSaveDate = 279765349;
+			PBXWorkspaceStateSaveDate = 279765349;
 		};
 		perUserProjectItems = {
-			26E20C77108FDE37003CB0F4 /* PBXTextBookmark */ = 26E20C77108FDE37003CB0F4 /* PBXTextBookmark */;
-			26E20C78108FDE37003CB0F4 /* PBXTextBookmark */ = 26E20C78108FDE37003CB0F4 /* PBXTextBookmark */;
-			26E20C79108FDE37003CB0F4 /* PBXTextBookmark */ = 26E20C79108FDE37003CB0F4 /* PBXTextBookmark */;
-			26E20C7A108FDE37003CB0F4 /* PBXTextBookmark */ = 26E20C7A108FDE37003CB0F4 /* PBXTextBookmark */;
-			26E20C7B108FDE37003CB0F4 /* XCBuildMessageTextBookmark */ = 26E20C7B108FDE37003CB0F4 /* XCBuildMessageTextBookmark */;
-			26E20C7F108FE74E003CB0F4 /* XDModelBookmark */ = 26E20C7F108FE74E003CB0F4 /* XDModelBookmark */;
+			262EA2D710ACE17100A39C9E /* XDModelBookmark */ = 262EA2D710ACE17100A39C9E /* XDModelBookmark */;
+			26E20C77108FDE37003CB0F4 = 26E20C77108FDE37003CB0F4 /* PBXTextBookmark */;
+			26E20C78108FDE37003CB0F4 = 26E20C78108FDE37003CB0F4 /* PBXTextBookmark */;
+			26E20C79108FDE37003CB0F4 = 26E20C79108FDE37003CB0F4 /* PBXTextBookmark */;
+			26E20C7A108FDE37003CB0F4 = 26E20C7A108FDE37003CB0F4 /* PBXTextBookmark */;
+			26E20C7B108FDE37003CB0F4 = 26E20C7B108FDE37003CB0F4 /* PBXTextBookmark */;
+			26E20C7F108FE74E003CB0F4 = 26E20C7F108FE74E003CB0F4 /* XDModelBookmark */;
 		};
 		sourceControlManager = 26E20C45108FC9C0003CB0F4 /* Source Control */;
 		userBuildSettings = {
