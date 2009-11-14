@@ -23,7 +23,7 @@
 
 	// Set up the edit and add buttons.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
-	self.title = @"Things and stuff";
+	self.title = @"IUPUI Nav";
     
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject)];
     self.navigationItem.rightBarButtonItem = addButton;
@@ -88,6 +88,9 @@
 	
 	// If appropriate, configure the new managed object.
 	[newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
+	
+	// Announce the insertion
+	NSLog(@"New record created.");
 	
 	// Save the context.
     NSError *error = nil;

@@ -11,6 +11,8 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		262EA5AF10AF133600A39C9E /* SecondTierController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262EA5AE10AF133600A39C9E /* SecondTierController.xib */; };
+		262EA5E710AF208D00A39C9E /* SecondTierController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EA5E610AF208D00A39C9E /* SecondTierController.m */; };
 		28860B770F44E54D00985440 /* IUPUINavigator.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */; };
 		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
@@ -25,6 +27,9 @@
 		1D3623250D0F684500981E51 /* IUPUINavigatorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUPUINavigatorAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* IUPUINavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IUPUINavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		262EA5AE10AF133600A39C9E /* SecondTierController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTierController.xib; sourceTree = "<group>"; };
+		262EA5E510AF208D00A39C9E /* SecondTierController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondTierController.h; path = ../SecondTierController.h; sourceTree = "<group>"; };
+		262EA5E610AF208D00A39C9E /* SecondTierController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondTierController.m; path = ../SecondTierController.m; sourceTree = "<group>"; };
 		28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = IUPUINavigator.xcdatamodel; sourceTree = "<group>"; };
 		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +60,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				262EA5E510AF208D00A39C9E /* SecondTierController.h */,
+				262EA5E610AF208D00A39C9E /* SecondTierController.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* IUPUINavigatorAppDelegate.h */,
@@ -95,6 +102,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				262EA5AE10AF133600A39C9E /* SecondTierController.xib */,
 				28860B760F44E54D00985440 /* IUPUINavigator.xcdatamodel */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -165,6 +173,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				262EA5AF10AF133600A39C9E /* SecondTierController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +188,7 @@
 				1D3623260D0F684500981E51 /* IUPUINavigatorAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				28860B770F44E54D00985440 /* IUPUINavigator.xcdatamodel in Sources */,
+				262EA5E710AF208D00A39C9E /* SecondTierController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
