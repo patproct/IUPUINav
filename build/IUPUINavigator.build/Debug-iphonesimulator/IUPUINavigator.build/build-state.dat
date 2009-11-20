@@ -1,7 +1,7 @@
 TIUPUINavigator
 v7
 r0
-t279912932.800119
+t280426932.065422
 cCheck dependencies
 cProcessInfoPlistFile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/Info.plist IUPUINavigator-Info.plist
 cCompileXIB /Users/patrickproctor/Desktop/IUPUINavigator/MainWindow.xib
@@ -63,10 +63,11 @@ t1253952071
 s6649
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m
-c000000004AFEEA6200000000000001E8
-t1258220130
-s488
+c000000004AFEEA940000000000000206
+t1258220180
+s518
 i"SecondTierController.h"
+i"RootViewController.h"
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.h
 c000000004ADF923B00000000000003B1
@@ -81,19 +82,20 @@ i"IUPUINavigatorAppDelegate.h"
 i"RootViewController.h"
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.h
-c000000004ADF923B000000000000020A
-t1256165947
-s522
+c000000004AFEEB330000000000000241
+t1258220339
+s577
+i<UIKit/UIKit.h>
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m
-c000000004AFCE90D0000000000002694
-t1258088717
+c000000004AFEEB860000000000002694
+t1258220422
 s9876
 i"RootViewController.h"
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel
-c000000004AFCAAA00000000000000088
-t1258072736
+c000000004B06C2000000000000000088
+t1258734080
 s136
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator_Prefix.pch
@@ -129,9 +131,9 @@ s238
 i"SecondTierController.h"
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib
-c000000004AFEDBB600000000000014D9
-t1258216374
-s5337
+c000000004AFEF71100000000000035A0
+t1258223377
+s13728
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/SecondViewController.h
 c000000004AFEDC5300000000000000EE
@@ -146,20 +148,20 @@ s478
 i"SecondViewController.h"
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app
-t1258220132
+t1258734100
 s306
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app.dSYM
-t1258220132
+t1258220467
 s102
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator
-t1258220132
+t1258220467
 s28732
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator.mom
-t1258072824
-s2649
+t1258734100
+s2757
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/Info.plist
 t1256165949
@@ -178,8 +180,8 @@ t1258220121
 s1386
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/SecondTierController.nib
-t1258220121
-s960
+t1258734100
+s1501
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigator.LinkFileList
 c000000004AFEEA59000000000000026B
@@ -187,15 +189,15 @@ t1258220121
 s619
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigatorAppDelegate.o
-t1256165951
+t1258220466
 s51352
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/RootViewController.o
-t1258210521
+t1258220467
 s50976
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondTierController.o
-t1258220132
+t1258220467
 s30692
 
 N/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondViewController.o
@@ -223,11 +225,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies279912932#279912932#0(0"0(0#1#0"2536164672#0"0#
+lSLF07#2@18"Check dependencies280426932#280426932#0(0"0(0#1#0"2524059760#0"0#
 
 CCompileC build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigatorAppDelegate.o /Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s277858751.551298
-e277858751.721755
+s279913266.785285
+e279913266.985748
 r1
 xCompileC
 xbuild/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigatorAppDelegate.o
@@ -236,11 +238,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m277858751#277858751#0(0"0(0#0#80"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m2536164672#2115"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -include /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch -c /Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m -o /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigatorAppDelegate.o0#
+lSLF07#2@88"Compile /Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m279913266#279913267#0(0"0(0#0#80"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m2536164672#2115"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -include /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch -c /Users/patrickproctor/Desktop/IUPUINavigator/Classes/IUPUINavigatorAppDelegate.m -o /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigatorAppDelegate.o0#
 
 CCompileC build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/RootViewController.o /Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s279903319.123916
-e279903321.822060
+s279913266.787595
+e279913267.096928
 r1
 xCompileC
 xbuild/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/RootViewController.o
@@ -249,11 +251,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m279903319#279903321#0(0"0(0#0#73"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m2536164672#2101"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -include /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch -c /Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m -o /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/RootViewController.o0#
+o/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m:278: warning: incomplete implementation of class 'RootViewController'
+o/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m:278: warning: method definition for '-push:' not found
+lSLF07#2@81"Compile /Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m279913266#279913267#0(273"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m:278: warning: incomplete implementation of class 'RootViewController'/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m:278: warning: method definition for '-push:' not found2(22@55"Incomplete implementation of class 'RootViewController'279913267#0#144#0(6@73"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m279913222#278#0#278#0#38"incomplete implementation of class '*'0(22@40"Method definition for '-push:' not found279913267#144#129#0(6@73"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m279913222#278#0#278#0#35"method definition for '*' not found0(0#0#73"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m2536164672#2101"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -include /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch -c /Users/patrickproctor/Desktop/IUPUINavigator/Classes/RootViewController.m -o /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondTierController.o /Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s279912932.540175
-e279912932.731886
+s279913266.985934
+e279913267.180166
 r1
 xCompileC
 xbuild/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondTierController.o
@@ -262,7 +266,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m279912932#279912932#0(0"0(0#0#78"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m2536164672#2108"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -include /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch -c /Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m -o /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondTierController.o0#
+lSLF07#2@86"Compile /Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m279913266#279913267#0(0"0(0#0#78"/Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m2536164672#2108"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -include /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch -c /Users/patrickproctor/Desktop/IUPUINavigator/Classes/../SecondTierController.m -o /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondTierController.o0#
 
 CCompileC build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/SecondTierController.o /Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -300,41 +304,41 @@ x/Users/patrickproctor/Desktop/IUPUINavigator/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib279912921#279912921#0(0"0(0#0#67"/Users/patrickproctor/Desktop/IUPUINavigator/RootViewController.xib2536164672#523"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/RootViewController.nib /Users/patrickproctor/Desktop/IUPUINavigator/RootViewController.xib0#
 
 CCompileXIB /Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib
-s279912921.140415
-e279912921.670901
+s280426899.905771
+e280426900.370693
 r1
 xCompileXIB
 x/Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib
-lSLF07#2@35"CompileXIB SecondTierController.xib279912921#279912921#0(0"0(0#0#69"/Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib2536164672#527"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/SecondTierController.nib /Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib0#
+lSLF07#2@35"CompileXIB SecondTierController.xib280426899#280426900#0(0"0(0#0#69"/Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib2524059760#527"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/SecondTierController.nib /Users/patrickproctor/Desktop/IUPUINavigator/SecondTierController.xib0#
 
 CDataModelCompile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator.mom /Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel
-s279765624.669216
-e279765624.763955
+s280426900.371077
+e280426900.481430
 r1
 xDataModelCompile
 x/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator.mom
 x/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel
 o/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel:Building.address: warning: Building.address -- relationship does not have an inverse 
-lSLF07#2@79"Compile /Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel279765624#279765624#0(158"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel:Building.address: warning: Building.address -- relationship does not have an inverse 1(22@58"Building.address -- relationship does not have an inverse 279765624#4294967295#0#0(6@71"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel279765536#0#0#0#0#0"0(0#0#71"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel2536164672#423"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator.mom0#
+lSLF07#2@79"Compile /Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel280426900#280426900#0(158"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel:Building.address: warning: Building.address -- relationship does not have an inverse 1(22@58"Building.address -- relationship does not have an inverse 280426900#4294967295#0#0(6@71"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel280426880#0#0#0#0#0"0(0#0#71"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel2524059760#423"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcdatamodel /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator.mom0#
 
 CGenerateDSYMFile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app.dSYM /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator
-s279912932.767955
-e279912932.795857
+s279913267.212210
+e279913267.238548
 r1
 xGenerateDSYMFile
 x/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app.dSYM
 x/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/IUPUINavigator.app.dSYM build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator279912932#279912932#0(0"0(0#0#106"/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator2536164672#422"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator -o /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app.dSYM0#
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/IUPUINavigator.app.dSYM build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator279913267#279913267#0(0"0(0#0#106"/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator2536164672#422"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator -o /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app.dSYM0#
 
 CLd /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator normal i386
-s279912932.732045
-e279912932.767816
+s279913267.180295
+e279913267.212074
 r1
 xLd
 x/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator
 xnormal
 xi386
-lSLF07#2@111"Link /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator279912932#279912932#0(0"0(0#0#0"2536164672#949"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -filelist /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigator.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator0#
+lSLF07#2@111"Link /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator279913267#279913267#0(0"0(0#0#0"2536164672#949"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -filelist /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/Objects-normal/i386/IUPUINavigator.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/IUPUINavigator0#
 
 CProcessInfoPlistFile /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app/Info.plist IUPUINavigator-Info.plist
 s277858749.677420
@@ -359,10 +363,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile IUPUINavigator_Prefix.pch277858750#277858751#0(0"0(0#0#70"/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator_Prefix.pch2536164672#1944"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-generated-files.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-own-target-headers.hmap -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-all-target-headers.hmap -iquote /Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/IUPUINavigator-project-headers.hmap -F/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator -I/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/include -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources/i386 -I/Users/patrickproctor/Desktop/IUPUINavigator/build/IUPUINavigator.build/Debug-iphonesimulator/IUPUINavigator.build/DerivedSources -c /Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator_Prefix.pch -o /var/folders/v4/v42E7HAEF5mpttgbj6SMaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/IUPUINavigator_Prefix-affnuaytqpfawvfecvjsmgpdlans/IUPUINavigator_Prefix.pch.gch0#
 
 CTouch /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app
-s279912932.795970
-e279912932.800063
+s280426900.481546
+e280426900.485446
 r1
 xTouch
 x/Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app
-lSLF07#2@97"Touch /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app279912932#279912932#0(0"0(0#0#0"2536164672#297"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app0#
+lSLF07#2@97"Touch /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app280426900#280426900#0(0"0(0#0#0"2524059760#297"    cd /Users/patrickproctor/Desktop/IUPUINavigator    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/patrickproctor/Desktop/IUPUINavigator/build/Debug-iphonesimulator/IUPUINavigator.app0#
 

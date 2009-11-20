@@ -280,7 +280,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 418}}</string>
+							<string>{{0, 0}, {186, 420}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -292,14 +292,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 436}}</string>
+						<string>{{0, 0}, {203, 438}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 301 841 477 0 0 1280 778 </string>
+						<string>0 299 874 479 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RootViewController.m</string>
+								<string>SecondTierController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RootViewController.m</string>
+										<string>SecondTierController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>262EA5F510AF230900A39C9E</string>
+										<string>262EA60110AF362A00A39C9E</string>
 										<key>history</key>
 										<array>
 											<string>262EA5B210AF134700A39C9E</string>
@@ -338,9 +336,9 @@
 											<string>262EA5EF10AF230900A39C9E</string>
 											<string>262EA5F010AF230900A39C9E</string>
 											<string>262EA5F110AF230900A39C9E</string>
-											<string>262EA5F210AF230900A39C9E</string>
 											<string>262EA5F310AF230900A39C9E</string>
-											<string>262EA5F410AF230900A39C9E</string>
+											<string>262EA5FC10AF23EE00A39C9E</string>
+											<string>262EA5FD10AF23EE00A39C9E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -352,16 +350,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {633, 269}}</string>
+								<string>{{0, 0}, {666, 271}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 301 841 477 0 0 1280 778 </string>
+								<string>0 299 874 479 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>269pt</string>
+							<string>271pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -372,9 +372,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 274}, {633, 162}}</string>
+								<string>{{0, 276}, {666, 162}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 301 841 477 0 0 1280 778 </string>
+								<string>0 299 874 479 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -383,7 +383,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>633pt</string>
+					<string>666pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -544,7 +544,7 @@
 		<string>/Users/patrickproctor/Desktop/IUPUINavigator/IUPUINavigator.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 301 841 477 0 0 1280 778 </string>
+	<string>0 299 874 479 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -565,7 +565,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>RootViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -582,6 +582,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
